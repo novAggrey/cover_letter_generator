@@ -5,7 +5,7 @@ import os
 import pypandoc
 
 # Initialize OpenAI API key
-openai.api_key = "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"
+openai.api_key = "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"
 
 def generate_cover_letter(inputs):
     # Use the inputs dictionary to generate a prompt for the language model
