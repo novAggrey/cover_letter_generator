@@ -4,5 +4,5 @@ You can run the app straight in Streamlit just by clicking the link below:
 
 👇
 
-[![Cover_Letter_Generator](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://novaggrey-cover-letter-generator-cover-letter-generator-xxrwb8.streamlit.app/)
+[![Cover_Letter_Generator](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://novaggrey-cover-letter-generator-cover-letter-generator-rocfqa.streamlit.app/)
  
