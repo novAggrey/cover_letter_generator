@@ -8,12 +8,12 @@ import pypandoc
 import streamlit as st
 
 # Everything is accessible via the st.secrets dict:
-st.write("OPEN API KEY:", st.secrets["openai_api_key"])
+st.write("openai_api_key:", st.secrets["openai_api_key"])
 
 # And the root-level secrets are also accessible as environment variables:
 st.write(
     "Has environment variables been set:",
-    os.environ["OPEN API KEY"] == st.secrets["openai_api_key"],
+    os.environ["openai_api_key"] == st.secrets["openai_api_key"],
 )
 
 
