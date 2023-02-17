@@ -8,10 +8,10 @@ import pypandoc
 import streamlit as st
 
 # Everything is accessible via the st.secrets dict:
-st.secrets["openai_api_key"]
+# st.secrets["openai_api_key"]
 
 # And the root-level secrets are also accessible as environment variables:
-# os.environ["openai_api_key"] == st.secrets["openai_api_key"]
+os.environ["openai_api_key"] == st.secrets["openai_api_key"]
 
 
 def generate_cover_letter(inputs):
