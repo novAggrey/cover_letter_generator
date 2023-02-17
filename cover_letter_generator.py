@@ -8,7 +8,7 @@ import pypandoc
 import streamlit as st
 
 
-st.secrets["openai_api_key"]
+SECRET_API_KEY = os.environ.get("SECRET_API_KEY")
 
 
 def generate_cover_letter(inputs):
