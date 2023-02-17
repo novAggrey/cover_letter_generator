@@ -5,10 +5,17 @@ import os
 import pypandoc
 
 # Initialize OpenAI API key
-headers = {
-    "authorization": st.secrets["openai.api_key"],
-    "content-type": "application/json"
-}
+import streamlit as st
+
+# Everything is accessible via the st.secrets dict:
+st.write("OPEN API KEY:", st.secrets["openai.api_key"])
+
+# And the root-level secrets are also accessible as environment variables:
+st.write(
+    "Has environment variables been set:",
+    os.environ["OPEN API KEY"] == st.secrets["openai.api_key"],
+)
+
 
 def generate_cover_letter(inputs):
     # Use the inputs dictionary to generate a prompt for the language model
