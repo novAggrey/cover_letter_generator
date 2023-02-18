@@ -8,7 +8,7 @@ You can run the app straight in Streamlit just by clicking the link below:
  
 
 ## HOW TO RUN THE CODE.
-1. Download and extract the app file. You may click the link to find it 👉🏾 [COVER LETTER GENERATOR](https://github.com/novAggrey/cover_letter_generator/archive/refs/heads/master.zip)
+1. Download and extract the app file. You may click the link to find it 👉🏾 [COVER LETTER GENERATOR ZIP FILE](https://github.com/novAggrey/cover_letter_generator/archive/refs/heads/master.zip)
 
 2. Make sure "Anaconda" is installed in your computer.
 Got to [Anaconda download page](https://www.anaconda.com/products/distribution) and download Anaconda Individual Edition on Windows, for those using windows and on Linux, for those using Linux and likewise on Mac for those with Mac computers.
