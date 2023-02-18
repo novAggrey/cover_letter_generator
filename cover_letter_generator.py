@@ -10,6 +10,9 @@ import streamlit as st
 
 SECRET_API_KEY = os.environ.get("SECRET_API_KEY")
 
+# You can comment the code line above and uncomment the code line below then, input your OpenAI API KEY
+# openai.api_key = "YOUR API KEY"
+
 
 def generate_cover_letter(inputs):
     # Use the inputs dictionary to generate a prompt for the language model
